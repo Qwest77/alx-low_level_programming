@@ -6,11 +6,9 @@
  * @month: month in number format
  * @day: day of month
  * @year: year
- * Return: Always 0 (success)
+ * Return: void
  */
-
-int print_remaining_days(int month, int day, int year)
-
+void print_remaining_days(int month, int day, int year)
 {
 	if ((year % 100 == 0 && year % 400 == 0) || (year % 4 == 0))
 	{
