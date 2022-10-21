@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_triangle - prints a triangle
@@ -13,17 +14,17 @@ void print_triangle(int n)
 		for (h = 1; h <= n; h++)
 		{
 			for (tri = n - h; tri > 0; tri--)
-				_putchar(' ');
+				putchar(' ');
 
 			for (tri = 0; tri < h; tri++)
-				_putchar('#');
+				putchar('#');
 
 			if (h == n)
 				continue;
 
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
 
-	_putchar('\n');
+	putchar('\n');
 }
