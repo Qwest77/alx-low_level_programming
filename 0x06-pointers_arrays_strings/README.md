@@ -1,0 +1,1 @@
+0x06 more poinnters arrays and strings0x06 more poinnters arrays and strings0x06 more poinnters arrays and strings0x06 more poinnters arrays and strings0x06 more poinnters arrays and strings0x06 more poinnters arrays and strings
